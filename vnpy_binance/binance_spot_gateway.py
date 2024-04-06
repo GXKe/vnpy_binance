@@ -45,6 +45,9 @@ UTC_TZ = ZoneInfo("UTC")
 
 # Real server hosts
 REST_HOST: str = "https://api.binance.com"
+
+# 实盘Websocket API地址
+# https://binance-docs.github.io/apidocs/spot/cn/#185368440e 现货，杠杆等
 WEBSOCKET_TRADE_HOST: str = "wss://stream.binance.com:9443/ws/"
 WEBSOCKET_DATA_HOST: str = "wss://stream.binance.com:9443/stream"
 

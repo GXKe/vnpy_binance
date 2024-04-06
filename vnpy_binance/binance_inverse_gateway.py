@@ -45,6 +45,9 @@ UTC_TZ = ZoneInfo("UTC")
 
 # Real server hosts
 D_REST_HOST: str = "https://dapi.binance.com"
+
+# 实盘反向合约Websocket API地址
+# https://binance-docs.github.io/apidocs/delivery/cn/#185368440e 币本位合约
 D_WEBSOCKET_TRADE_HOST: str = "wss://dstream.binance.com/ws/"
 D_WEBSOCKET_DATA_HOST: str = "wss://dstream.binance.com/stream"
 

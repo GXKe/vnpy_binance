@@ -45,6 +45,9 @@ UTC_TZ = ZoneInfo("UTC")
 
 # Real server hosts
 F_REST_HOST: str = "https://fapi.binance.com"
+
+# 实盘正向合约Websocket API地址
+# https://binance-docs.github.io/apidocs/futures/cn/#185368440e U本位合约
 F_WEBSOCKET_TRADE_HOST: str = "wss://fstream.binance.com/ws/"
 F_WEBSOCKET_DATA_HOST: str = "wss://fstream.binance.com/stream"
 
